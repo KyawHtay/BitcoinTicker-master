@@ -30,7 +30,7 @@ class ViewController:UIViewController,UIPickerViewDataSource,UIPickerViewDelegat
         currencySelected = currencySymbolArray[row]
         getBitCoinData(url: finalURL)
     }
-    
+    //TO DO: add variable here
     let baseURL = "https://apiv2.bitcoinaverage.com/indices/global/ticker/BTC"
     let currencyArray = ["AUD", "BRL","CAD","CNY","EUR","GBP","HKD","IDR","ILS","INR","JPY","MXN","NOK","NZD","PLN","RON","RUB","SEK","SGD","USD","ZAR"]
     let currencySymbolArray = ["$",
