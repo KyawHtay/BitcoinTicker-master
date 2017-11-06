@@ -44,7 +44,7 @@ class ViewController:UIViewController,UIPickerViewDataSource,UIPickerViewDelegat
     @IBOutlet weak var currencyPicker: UIPickerView!
     
 
-    
+    //load view
     override func viewDidLoad() {
         super.viewDidLoad()
         
